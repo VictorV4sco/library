@@ -25,7 +25,7 @@ public class Book implements Serializable {
 	@Column
 	private String author;
 
-	@Column(name = "literary_genre")
+	@Column
 	private String literaryGenre;
 
 	@Column
